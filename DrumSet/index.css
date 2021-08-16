@@ -1,0 +1,37 @@
+body{
+    
+    background-image:url('./assets/bg-image.jpg') ; 
+    z-index: 0;
+}
+.Wrapper{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+    padding-top: 15%;
+}
+.boxEle {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 71px;
+    width: 81px;
+    margin: 10px;
+    border: 1px solid rgb(0,0,0);
+    background-color: rgba(21,21, 21,.71);
+    cursor: pointer;
+}
+
+.boxEle:hover{
+    height: 90px;
+    width: 100px;
+
+}
+
+.underOne{
+    font-size: 50%;
+}
+
+.OveOne{
+    font-size: 110%;
+}

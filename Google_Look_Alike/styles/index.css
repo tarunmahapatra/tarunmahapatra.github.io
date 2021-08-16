@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, sans-serif;
+    display: block;
+}
+nav{
+     text-align: right;
+    
+}
+.Menu-items{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-right: 15px;
+    text-decoration: none;
+    position: relative;
+    top: -10px;
+}
+.Menu-items:hover{
+    text-decoration: underline;
+}
+
+#dropdown-menu{
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+    margin-right: 15px;
+}
+.material-icons:focus{
+    text-decoration: underline;
+}
+
+.profile_pic{
+    margin-right: 15px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.input_wrap{
+    position: relative;
+    width: 582px;
+    display: inline-block;
+}
+.input_wrap > img{
+    position: absolute;
+    top: 35px;
+    right: -20px;
+    width: 25px;
+}
+.Search-Box{
+    width: 100%;
+    color: #222;
+    border: 1.5px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+    outline: none;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.Search-Box:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+.Search-Box:focus{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+section{
+    text-align: center;
+    padding-top: 10%;
+ }
+
+.Custom-btn{
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    color: #222;
+    cursor: pointer;
+
+}
+.Custom-btn:first-of-type{
+    margin-right: 15px;
+
+}
+
+.Custom-btn:hover{
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+#dropdown-wrapper{
+    display: inline-block;
+
+}
+
+#app-dropdown{
+    width: 285px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 100px;
+    display: none;
+}
+
+#dropdown-wrapper:hover
+#app-dropdown{
+    display: block;
+}
+.apps{
+    display: inline-block;
+    width: 84px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.apps > img{
+    width:50px;
+    height: 50px;
+}
+
+.apps > p{
+    color: rgba(0, 0, 0, 0.87);
+    margin:0;
+    padding-top: 8px;
+
+}
+
+.apps:hover{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+}
